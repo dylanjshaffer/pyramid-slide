@@ -1,9 +1,61 @@
-#pyramid {
-    line-height: 0;
-    font-size: 30px;
-}
-
 body {
     font-family: "Courier New", monospace;
     text-align: center;
+    background-color: #f9f9f9;
+    margin: 0px;
+}
+
+label {
+    font-size: 14px;
+}
+
+select {
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: #9c3e92;
+    color: #b0b0b0;
+    margin-bottom: 25px;
+    width: 100%;
+    display: inline-block;
+}
+
+.setting-container {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+#height {
+    font-weight: bold;
+}
+
+#pyramid-window {
+    border: 2px solid #9c3e92;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    width: 60%;
+    margin: auto;
+}
+
+#pyramid-settings {
+    padding: 10px;
+    background-color: #b0b0b0;
+}
+
+#slider-div {
+    vertical-align: middle;
+}
+
+#pyramid {
+    line-height: 0;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#pyramid p {
+    color: #9c3e92;
+    font-weight: bold;
 }
